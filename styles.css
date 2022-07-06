@@ -2,7 +2,6 @@ body {
 	background: black;
 }
 * {
-	border: 1px dashed red;
 	min-height: 10px;
 }
 .postcard {
@@ -24,4 +23,12 @@ h1 {
 }
 .postcard-body {
 	display: flex;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: grey;
+	padding: 6px, 10px;
+	border: none;
 }
